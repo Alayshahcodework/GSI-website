@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green Spaces Initiative</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            greenspace: '#228B22',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 w-full bg-white shadow z-50">
+    <nav class="flex justify-between items-center p-4 max-w-7xl mx-auto">
+      <h1 class="text-2xl font-bold text-greenspace">GreenSpaces</h1>
+      <div class="space-x-6">
+        <a href="#mission" class="hover:text-greenspace">Mission</a>
+        <a href="#events" class="hover:text-greenspace">Events</a>
+        <a href="#team" class="hover:text-greenspace">Team</a>
+        <a href="#work" class="hover:text-greenspace">Our Work</a>
+        <a href="#contact" class="hover:text-greenspace">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="mission" class="pt-32 min-h-screen bg-green-50 flex items-center justify-center text-center px-4">
+    <div>
+      <h2 class="text-5xl font-bold text-greenspace mb-4">Green Spaces Initiative</h2>
+      <p class="text-xl max-w-2xl mx-auto mb-6">We’re a student-led organization that promotes and preserves green spaces in our communities through planning, planting, and public awareness.</p>
+      <a href="#events" class="bg-greenspace text-white px-6 py-3 rounded-lg hover:bg-green-700 transition">View Our Projects</a>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+ <!-- Events Section -->
+<section id="events" class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-center mb-6">Past Events that We Have Participated In</h2>
+    <p class="text-center text-lg max-w-2xl mx-auto mb-10">
+      Our members have actively contributed to local environmental events, supporting cleanup efforts and promoting outdoor awareness through community engagement.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-10">
+      <div class="space-y-4">
+        <h3 class="text-2xl font-semibold">🥾 JAMS Hike – 3/25/25</h3>
+        <p>We led a student-organized hike at JAMS to encourage healthy lifestyles and deepen appreciation for local nature trails and green spaces.</p>
+      </div>
+
+      <div class="space-y-4">
+        <h3 class="text-2xl font-semibold">🌱 FOPOS (Friends of Princeton Open Space)</h3>
+        <p>GSI members volunteered with FOPOS to help maintain and restore local conservation areas through planting, cleanup, and education efforts.</p>
+        <img src="FOPOS(1).jpeg" class="jpeg" alt="Garden Project">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="py-20 bg-green-50">
+  <div class="max-w-5xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-center mb-12">Meet the Team</h2>
+
+    <!-- Sriman -->
+    <div class="flex flex-col md:flex-row items-center mb-12">
+      <img src="GSIpictures/sriman.jpg" alt="Sriman Arji" class="w-40 h-40 rounded-full object-cover shadow mb-4 md:mb-0 md:mr-8">
+      <div>
+        <h3 class="text-2xl font-semibold">Sriman Arji</h3>
+        <p class="text-gray-600 font-medium mb-1">Co-Founder</p>
+        <p class="text-gray-700">Sriman is a founder of GSI and a future environmental engineer in the making. He’s a Life Scout working on his Eagle Project and a skilled vocalist in both Indian classical and Western music. His leadership and love for nature guide many of GSI’s biggest initiatives.</p>
+      </div>
+    </div>
+
+    <!-- Abhiram -->
+    <div class="flex flex-col md:flex-row items-center mb-12">
+      <img src="GSIpictures/abhiram.jpg" alt="Abhiram Pulijala" class="w-40 h-40 rounded-full object-cover shadow mb-4 md:mb-0 md:mr-8">
+      <div>
+        <h3 class="text-2xl font-semibold">Abhiram Pulijala</h3>
+        <p class="text-gray-600 font-medium mb-1">Director of Marketing</p>
+        <p class="text-gray-700">Abhiram is a Life Scout, coder, and environmental advocate. He earned the Gold Presidential Volunteer Service Award and contributes leadership and creativity to every initiative. He’s also passionate about investing and financial education.</p>
+      </div>
+    </div>
+
+    <!-- Ashwath -->
+    <div class="flex flex-col md:flex-row items-center mb-12">
+      <img src="GSIpictures/ashwath.jpg" alt="Ashwath Rajjakal" class="w-40 h-40 rounded-full object-cover shadow mb-4 md:mb-0 md:mr-8">
+      <div>
+        <h3 class="text-2xl font-semibold">Ashwath Rajjakal</h3>
+        <p class="text-gray-600 font-medium mb-1">Treasurer</p>
+        <p class="text-gray-700">Ashwath manages GSI’s finances and planning. He’s a 4th-degree black belt, DECA competitor, published author, and award-winning track athlete with a deep interest in business and sustainability.</p>
+      </div>
+    </div>
+
+    <!-- Saatvik -->
+    <div class="flex flex-col md:flex-row items-center mb-12">
+      <img src="GSIpictures/saatvik.jpeg" alt="Saatvik Guduru" class="w-40 h-40 rounded-full object-cover shadow mb-4 md:mb-0 md:mr-8">
+      <div>
+        <h3 class="text-2xl font-semibold">Saatvik Guduru</h3>
+        <p class="text-gray-600 font-medium mb-1">Co-Founder</p>
+        <p class="text-gray-700">Saatvik co-founded GSI with a vision to make communities more sustainable. He’s an aspiring entrepreneur, science competitor, and artist, and serves on the Edison Library Teen Advisory Board.</p>
+      </div>
+    </div>
+
+    <!-- Alay -->
+    <div class="flex flex-col md:flex-row items-center mb-12">
+      <img src="GSIpictures/alay.jpeg" alt="Alay Shah" class="w-40 h-40 rounded-full object-cover shadow mb-4 md:mb-0 md:mr-8">
+      <div>
+        <h3 class="text-2xl font-semibold">Alay Shah</h3>
+        <p class="text-gray-600 font-medium mb-1">Ambassador</p>
+        <p class="text-gray-700">Alay is a junior at JP Stevens with a passion for computer science and sustainability. He designed and built the GSI website, runs cross country and track, and is nationally ranked in badminton. He also tutors SAT students through Schoolhouse.world.</p>
+      </div>
+    </div>
+
+    <!-- Srisaran -->
+    <div class="flex flex-col md:flex-row items-center mb-12">
+      <img src="GSIpictures/Srisaran.png" alt="Srisaran Sivakumar" class="w-40 h-40 rounded-full object-cover shadow mb-4 md:mb-0 md:mr-8">
+      <div>
+        <h3 class="text-2xl font-semibold">Srisaran Sivakumar</h3>
+        <p class="text-gray-600 font-medium mb-1">Supervisor</p>
+        <p class="text-gray-700">Srisaran is a Star Scout and cricket team captain who teaches at Tamil School. He brings focus, energy, and field leadership to the team and enjoys fitness, camping, and tech innovation.</p>
+      </div>
+    </div>
+
+    <!-- Sahil -->
+    <div class="flex flex-col md:flex-row items-center mb-12">
+      <img src="GSIpictures/sahil.jpg" alt="Sahil Kulkarni" class="w-40 h-40 rounded-full object-cover shadow mb-4 md:mb-0 md:mr-8">
+      <div>
+        <h3 class="text-2xl font-semibold">Sahil Kulkarni</h3>
+        <p class="text-gray-600 font-medium mb-1">Historian</p>
+        <p class="text-gray-700">Sahil is a music leader and environmentalist interested in cognitive science. He’s earned top placements in regional and state band competitions, and is passionate about how nature impacts mental health. He also enjoys swimming, cooking, and volunteering.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Our Impact Section -->
+<!-- Our Impact Section -->
+<section id="work" class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-center mb-6">Our Impact</h2>
+    <p class="text-center text-lg max-w-2xl mx-auto mb-10">
+      Through our fundraiser, we plan to host educational workshops for elementary schoolers to teach the importance of protecting the environment. These programs will inspire the next generation while supporting local sustainability projects.
+    </p>
+
+    <div class="space-y-10 max-w-3xl mx-auto">
+      <!-- Park Cleanup -->
+      <div>
+        <h3 class="text-2xl font-semibold">🧹 Park Cleanup & Revamp</h3>
+        <p>Partnered with city officials and youth groups to clean, paint, and redesign two local parks into welcoming, eco-friendly hangout spaces for the community.</p>
+      </div>
+
+      <!-- Workshop -->
+      <div>
+        <h3 class="text-2xl font-semibold">📚 Upcoming Workshop Initiative</h3>
+        <p>We are developing a series of workshops for local elementary schools to teach kids about environmental responsibility, sustainability, and how they can contribute to a greener future.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-green-50">
+    <div class="max-w-2xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-8">Get in Touch</h2>
+      <form action="#" method="POST" class="space-y-4 bg-white p-6 rounded-lg shadow">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full border border-gray-300 px-4 py-2 rounded" />
+        <input type="email" name="email" placeholder="Your Email" required class="w-full border border-gray-300 px-4 py-2 rounded" />
+        <textarea name="message" rows="4" placeholder="Your Message" required class="w-full border border-gray-300 px-4 py-2 rounded"></textarea>
+        <button type="submit" class="bg-greenspace text-white px-6 py-3 rounded hover:bg-green-700 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+<!-- Donate Section -->
+<section id="donate" class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-center mb-8">Donate to Our Fundraiser</h2>
+    <p class="text-center text-lg mb-6 max-w-2xl mx-auto">
+      Support our environmental mission by donating! You can send funds via <strong>Zelle</strong> or <strong>Venmo</strong> using the details below. Every contribution helps make a greener future possible 🌿
+    </p>
+
+    <div class="flex flex-col md:flex-row items-center justify-center gap-10 mb-10">
+      <!-- Zelle Info -->
+      <div class="bg-green-50 p-6 rounded-lg shadow w-full max-w-md text-center">
+        <h3 class="text-2xl font-semibold mb-2">Zelle</h3>
+        <p class="text-lg">Send your donation to:</p>
+        <p class="font-bold text-xl text-greenspace mt-2">(201) 961-5364</p>
+        <p class="text-sm text-gray-600 mt-2">Use your banking app to search this number on Zelle.</p>
+      </div>
+
+      <!-- Venmo QR Placeholder -->
+      <div class="bg-green-50 p-6 rounded-lg shadow w-full max-w-md text-center">
+        <h3 class="text-2xl font-semibold mb-4">Venmo</h3>
+        <p class="mb-2">Scan the QR code below using the Venmo app:</p>
+        <p class="text-sm text-gray-600 mt-2">
+      </div>
+    </div>
+
+    <!-- Flyer Embed -->
+    <div class="text-center">
+      <h4 class="text-xl font-semibold mb-2">Flyer with Details</h4>
+<embed src="GSIflyer.png" type="png" class="w-full max-w-3xl h-[600px] mx-auto border shadow" />
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 text-center text-sm py-4">
+    © 2025 Green Spaces Initiative. All rights reserved.
+  </footer>
+
+</body>
+</html>
